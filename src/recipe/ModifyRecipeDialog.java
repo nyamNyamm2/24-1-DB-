@@ -1,7 +1,5 @@
 package recipe;
 
-import user.UModify;
-
 import java.awt.*;
 import java.sql.SQLException;
 import javax.swing.*;

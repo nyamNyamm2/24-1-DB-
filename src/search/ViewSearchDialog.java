@@ -10,9 +10,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import abs.*;
-import recipe.RView;
-import recipe.RecipeVO;
-import recipe.SearchRecipeDialog;
 
 public class ViewSearchDialog extends JDialog
 {

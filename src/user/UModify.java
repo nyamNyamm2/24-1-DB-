@@ -1,7 +1,6 @@
 package user;
 
 import java.sql.*;
-import java.util.*;
 import abs.AbstractDAO;
 
 public class UModify extends AbstractDAO

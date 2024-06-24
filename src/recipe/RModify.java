@@ -1,7 +1,6 @@
 package recipe;
 
 import java.sql.*;
-import java.util.*;
 import abs.AbstractDAO;
 
 public class RModify extends AbstractDAO

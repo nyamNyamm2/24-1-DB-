@@ -4,17 +4,13 @@ import search.*;
 import user.*;
 
 import java.io.*;
-import java.sql.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.ArrayList;
-import java.util.List;
 import javax.swing.*;
 
-import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
-
-public class Main
+public class Main extends JFrame
 {
+    ImageIcon icon = new ImageIcon("c://app//recipe.png");
     JFrame frame;
     JMenuBar menuBar;
     JMenu userMenu, reciMenu, timeMenu;
@@ -33,6 +29,9 @@ public class Main
         userMenu = new JMenu("회원관리");
         reciMenu = new JMenu("레시피관리");
         timeMenu = new JMenu("검색관리");
+        JLabel lb1 = new JLabel(" ", JLabel.CENTER);
+        lb1.setIcon(icon);
+        frame.add(lb1);
     }
 
     protected void startFrame() throws IOException
